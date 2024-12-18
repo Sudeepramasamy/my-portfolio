@@ -45,3 +45,64 @@ body {
 .project-card:hover {
   transform: scale(1.05);
 }
+.contact-links{
+  text-align: center;
+  margin-top: 20px;
+}
+.contact-links a {
+  text-decoration: none;
+  font-size: 30px;
+  align-items: center;
+  gap: 8px;
+  display: flex;
+  color: #21db1a;
+  justify-content: center;
+  transition: color 0.3s ease;
+}
+.contact-links a:hover{
+  color: #0e76a8;
+}
+.contact-links i.fab.fa-linkedin{
+  font-size: 30px;
+  color: #21db1a;
+  transition: color 0.3s ease;
+}
+.contact-links a:hover i.fab.fa-linkedin {
+  color: #0e76a8; 
+}
+.contact-links h3{
+  margin-top: 10px;
+  color: #fff;
+  font-size: 20px;
+  text-align: center;
+}
+.home-section{
+  display: flex;
+  flex-direction: column; 
+  justify-content: center;
+  align-items: center; 
+  text-align: center;
+  padding: 50px 20px;
+  color: #fff;
+  background-color: #333;
+  min-height: 100vh;
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+}
+.btn-download{
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-weight: bold;
+  font-size: 20px;
+  text-decoration: none;
+  color: #fff;
+  background-color: #21db1a;
+  border-radius: 5px;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+.btn-download:hover{
+  background-color: #0e76a8;
+  transform: scale(1.05);
+}
+

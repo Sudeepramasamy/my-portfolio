@@ -9,9 +9,20 @@ const App = () => {
   return (
     <>
       <Navbar />
-      <div className="section" id="home">
-        <h1>Welcome to My Portfolio</h1>
-        <p>I am a Full-Stack Developer!</p>
+      <div className="home-section" id="home">
+        <h1>Welcome to My Digital Space</h1>
+        <p>Crafting seamless <span style={{color:"#21db1a"}}>web experiences</span>
+        with the perfect blend of creativity and code.. 
+        </p>
+        <p>
+          I'm a passionate <strong>Full-Stack Web Developer</strong> who turns ideas into interactive 
+          and efficient web solutions.
+        </p>
+        <a href="/assets/resume.pdf"
+        download="resume.pdf"
+        className="btn-download">
+          Resume
+        </a>
       </div>
       <div className="about-section" id="about">
       <div className="about-container">
@@ -39,6 +50,18 @@ const App = () => {
       <div className="section" id="contact">
         <h1>Contact Me</h1>
         <p>Feel free to reach out via email or LinkedIn!</p>
+        <div className="contact-links">
+          <a href="https://www.linkedin.com/in/sudeep-ramasamy/"
+          target="_blank"
+          rel="noopener noreferrer">
+          <i className="fab fa-linkedin"></i>
+            LinkedIn
+          </a>
+          <br />
+
+          <h3>sudeep9568@gmail.com</h3>
+
+        </div>
       </div>
     </>
   );

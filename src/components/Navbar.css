@@ -40,28 +40,28 @@
 }
 
 @media (max-width: 768px) {
-  /* Show toggler only on smaller screens */
+ 
   .navbar-toggler {
     display: block;
   }
 
-  /* Base hidden state for nav-links */
+ 
   .nav-links {
     display: none;
     flex-direction: column;
     position: absolute;
     top: 60px;
-    right: 0; /* Align menu to the left */
-    width: 50%; /* Set width to 50% */
+    right: 0; 
+    width: 50%;
     background-color: #333;
     text-align: left;
     padding: 10px 0;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
-    transition: all 0.3s ease-in-out; /* Smooth transition */
+    transition: all 0.3s ease-in-out; 
     z-index: 999;
   }
 
-  /* Active state of nav-links */
+ 
   .nav-links.active {
     display: flex;
   }
